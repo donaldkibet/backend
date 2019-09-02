@@ -1,4 +1,0 @@
-# Ignore the lib and node modules directories
-
-node_modules/
-lib/
