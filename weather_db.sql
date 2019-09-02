@@ -1,0 +1,2 @@
+create table activity (id int auto_increment,time varchar(50),date date, activity varchar(50), primary key(id));
+create table mood (id int auto_increment,time varchar(50),date date, mood varchar(100), primary key (id));
