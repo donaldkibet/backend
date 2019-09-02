@@ -1,8 +1,8 @@
 {
     "Database":{
         "development":{
-            "host":"127.0.0.1",
-            "user":"root",
+            "host":"localhost",
+            "user":"donald",
             "password":"_Donald2019*",
             "database":"weather_db",
             "connectionLimit":100
