@@ -13,3 +13,14 @@ This is the REST API for the ng-Weather App, Implemented using TypeScript.
 7. Run the command `tsc` to create JavaScript files.
 8. Run the command `nodemon lib\index.js`
 9. Project is running on `http://localhost:8052`
+10. Make sure to setup the config files by running
+    * Setup the config file `config.json`
+    * `"Database": {
+        "development":{
+            "host":"",
+            "user":"",
+            "password":"",
+            "database":"",
+            "connectionLimit":100
+        }
+    }`

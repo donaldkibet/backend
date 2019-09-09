@@ -17,6 +17,7 @@ export class UnitOfWorkFactory{
         create(callback:any){
         _dbconn.getConnection((err,connection)=>{
             db = new dbcontext(connection);
+            console.error(err);
             return callback(db);
         })
     }
